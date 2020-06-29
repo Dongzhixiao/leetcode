@@ -20,7 +20,7 @@ def zcdzzxl(l):
 #                dp[i] = max(dp[j],dp[i])
     #第三步：得到结果
     res = max(dp)  
-    return dp
+    return res
     
 if __name__ == '__main__':
     l = [10,9,2,5,3,7,101,18,17,16,15,14,13,14,15]
